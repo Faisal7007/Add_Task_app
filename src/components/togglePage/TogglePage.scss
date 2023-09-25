@@ -1,0 +1,45 @@
+
+
+.toggle_page{
+    height: 100vh;
+    .main_div{
+        padding: 10px;
+        height: 132px;
+        // background-color: pink;
+        margin-bottom: 10px;
+        .box{
+            padding: 10px;
+            text-align: center;
+            border-radius: 10px;
+            cursor: pointer;
+            line-height: 25px;
+            
+            .description{
+                font-size: 15px;
+                font-weight: 500;
+            }
+        }
+        .delete_button{
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 4px;
+            margin-top: 5px;
+            letter-spacing: 2px;
+            font-weight: 600;
+            cursor: pointer;
+
+        }
+        // .delete_button_hide{
+        //     background-color: red;
+        //     border: none;
+        //     padding: 10px;
+        //     border-radius: 4px;
+        //     margin-top: 5px;
+        //     letter-spacing: 2px;
+        //     font-weight: 600;
+        //     display: none;  
+        // }
+    }
+}
